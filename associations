@@ -1,0 +1,15 @@
+(assoc
+  #:pattern "image/.*"
+  #:program "sxiv %f")
+
+
+(assoc
+  #:pattern "^https?://.*"
+  #:program "qutebrowser %f"
+  #:test "pgrep qutebrowser"
+  #:on-fail "firefox %f")
+
+  (assoc
+  #:pattern "^text/.*"
+  #:program "nvim %f"
+  #:term "st -e")

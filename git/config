@@ -38,9 +38,11 @@
 	changed = yellow bold
 	untracked = red bold
 [diff]
-	tool = vimdiff3
+	tool = nvimdiff3
 [difftool]
 	prompt = false
+[mergetool]
+	tool = nvimdiff2
 [delta]
 	features = line-numbers decorations
 	line-numbers = true
