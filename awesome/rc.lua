@@ -44,6 +44,7 @@ editor = "nvim"
 editor_cmd = terminal .. " -e " .. editor
 launcher = "rofi -show"
 launcher1 = "rofi -show drun"
+browser = "firefox"
 
 -- launcher2 = "rofi -show"
 
@@ -248,6 +249,8 @@ awful.keyboard.append_global_keybindings({
         { description = "show the menubar", group = "launcher" }),
     awful.key({ modkey, }, ".", function() awful.spawn(launcher1) end,
         { description = "open rofi application menu", group = "launcher" }),
+    awful.key({ modkey, }, "b", function() awful.spawn(browser) end,
+        { description = "open firefox", group = "launcher" }),
     awful.key(
         { modkey, "Control" }, "[",
         function()
@@ -302,7 +305,7 @@ awful.keyboard.append_global_keybindings({
 
             })
         end,
-        { description = "increase volume", group = "system" })
+        { description = "increase volume", group = "system" }),
 
 })
 
@@ -324,6 +327,13 @@ awful.keyboard.append_global_keybindings({
         end,
         { description = "focus next by index", group = "client" }
     ),
+    awful.key({}, "Print",
+        function()
+            awful.spawn("kazam")
+        end
+
+    ),
+
     awful.key({ modkey, }, "k",
         function()
             awful.client.focus.byidx(-1)
