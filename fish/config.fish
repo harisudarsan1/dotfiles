@@ -3,7 +3,11 @@ if status is-interactive
 end
 
 source ./zoxide.fish
+export PATH="$PATH:/opt/nvim-linux64/bin"
 
+export PATH="$PATH:/usr/local/go/bin"
+
+export PATH="$PATH:/home/harisudarsan/go/bin"
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias icat='kitty +kitten icat'
