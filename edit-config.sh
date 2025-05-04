@@ -7,11 +7,14 @@ case "$1" in
   nvim)
     nvim ~/dotfiles/nvim
     ;;
+  lazygit)
+    nvim ~/dotfiles/lazygit
+    ;;
   git)
     nvim ~/dotfiles/.gitconfig
     ;;
-  zsh)
-    nvim ~/.zshrc
+  fish)
+    nvim ~/dotfiles/fish
     ;;
   bash)
     nvim ~/dotfiles/.bashrc
