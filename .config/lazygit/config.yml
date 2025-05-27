@@ -1,0 +1,7 @@
+git:
+  commit:
+    signoff: true
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
+    useConfig: false
