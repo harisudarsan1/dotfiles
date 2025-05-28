@@ -1,12 +1,12 @@
 lastupdatecheck: 0
 recentrepos:
-    - /home/harisudarsan/opensource/kubearmor-relay-server
-    - /home/harisudarsan/opensource/kubearmor-client
+    - /home/harisudarsan/dotfiles
     - /home/harisudarsan/opensource/grafana-datasource
+    - /home/harisudarsan/opensource/kubearmor-client
+    - /home/harisudarsan/opensource/kubearmor-relay-server
     - /home/harisudarsan/opensource/KubeArmor
     - /home/harisudarsan/opensource/otel-adapter
     - /home/harisudarsan/opensource/cilium
-    - /home/harisudarsan/dotfiles
 startuppopupversion: 5
 lastversion: 0.47.2
 customcommandshistory: []

@@ -15,9 +15,5 @@ if not pcall(require, "lazy") then
   vim.cmd.quit()
 end
 
-vim.opt.conceallevel = 2
-
--- vim.keymap.set('n', '<A-]>', ':bnext<CR>', { noremap = true, silent = true })
--- vim.keymap.set('n', '<A-[>', ':bprev<CR>', { noremap = true, silent = true })
 require "lazy_setup"
 require "polish"

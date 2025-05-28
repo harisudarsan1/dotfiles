@@ -1,18 +1,16 @@
 return {
-  
+
   {
-    'nvim-neorg/neorg',
+    "nvim-neorg/neorg",
     enabled = false,
-    config = function()
-      require('neorg').setup {}
-    end,
+    config = function() require("neorg").setup {} end,
   },
 
   {
-    'jakewvincent/mkdnflow.nvim',
+    "jakewvincent/mkdnflow.nvim",
     enabled = false,
     config = function()
-      local mkdnflow = require 'mkdnflow'
+      local mkdnflow = require "mkdnflow"
       mkdnflow.setup {}
     end,
   },

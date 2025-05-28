@@ -58,8 +58,6 @@
 	user = harisudarsan1
 [gitflow "prefix"]
 	versiontag = v
-[sequence]
-	editor = interactive-rebase-tool
 [credential "https://github.com"]
 	helper = 
 	helper = !/run/current-system/sw/bin/gh auth git-credential
