@@ -1,7 +1,8 @@
 [user]
 	name = Harisudarsan
-	email = sudarshanhari561@gmail.com
+	email = hari.sudarsan@kluisz.ai 
 	username = harisudarsan1
+	signingkey = /Users/hari/.ssh/id_ed25519.pub
 [init]
 	defaultBranch = main
 [core]
@@ -64,3 +65,11 @@
 [credential "https://gist.github.com"]
 	helper = 
 	helper = !/run/current-system/sw/bin/gh auth git-credential
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[rebase]
+	gpgsign = true
+[pull]
+	rebase = true
